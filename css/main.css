@@ -1,0 +1,42 @@
+.card-header img {
+    height: 30px;
+    margin-right: 12px;
+}
+.new-script {
+    display: flex;
+    flex-flow: column;
+    gap: 8px;
+    padding: 12px;
+}
+.new-script input,
+.new-script textarea {
+    width: 100%;
+}
+
+.hide {
+    display: none;
+}
+
+.list-group li {
+    display: flex;
+    align-items: center;
+    width: 100%;
+} 
+.list-group li div:nth-child(1) {
+    width: 100%;
+}
+.list-group li .options {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+img.icon {
+    width: 28px;
+    height: 28px;
+    padding: 6px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
